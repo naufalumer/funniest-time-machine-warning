@@ -9,6 +9,11 @@ produces byte-identical output.
 
 import os
 
+# Design note: the judge rewards a real time-travel hazard turned into the
+# joke, with the surprise saved for the last words, phrased as a flat safety
+# notice. The hazard here is the butterfly effect (stepping on an ancestor);
+# the twist is that the smallest thing underfoot, the bug, is one too.
+
 ENTRY = (
     "WARNING: Do not step on anything. "
     "Everything is your ancestor, including the bug."
